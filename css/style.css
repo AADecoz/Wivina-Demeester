@@ -67,24 +67,51 @@ section img {
    width: 1200px;
    height: ;
    opacity: 0.5;
-}
-
-span .witte-driehoek {
-   position: absolute;
-   border-left-width: 1200px;
-   border-style: solid;
-   color: beige;
-   /* height: 0;
-   right: 0;
-   width: 0; */
+   
 }
 
 main div {
    background-color: #fb830f;
-   transition: ease-in-out;
-   padding: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   /* text-align: center; */
+   transition-timing-function: ease-in-out;
+   transition: width 2s;
+   width: 90px;
+   height: 40px;
+   padding: 15px;
    margin: 5px;
-   border: solid 70%;
+   border-radius: 5px;
+}
+
+main div i{
+   width: 40px;
+   height: 40px;
+   padding: 15px;
+   margin: 5px;
+   border: solid 3px 100% #fb830f;
+   display: inline-block;
+   
+   
+}
+
+main div:hover {
+   background-color: #fb830f;
+   width: 300px;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+main div:hover h2{
+   margin-left: 30px;
+   display: inline;
+   align-items: center;
+   
+}
+
+main div h2{
+   display: none;
+   font-size: x-large;
 }
 
 /* kleurtjes: #342e2e
